@@ -1,6 +1,0 @@
----
-layout: post
-author: jsw
----
-
-Welcome to the project
