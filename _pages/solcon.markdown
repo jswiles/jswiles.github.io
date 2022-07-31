@@ -23,6 +23,14 @@ permalink: /solcon/
 
   <div class="row">
       <section>
+          <a style="color:blue;" href="/solcon" {% if page.title == "Solar Charger" %}class="active-page"{% endif %}>MPPTSolarPwrModule_R2 </a>
+      </section>
+  </div>
+
+
+
+  <div class="row">
+      <section>
          <div class="indent2em">
          <p>
            The solar charge controller board uses LT3652HV MPPT power tracking battery charger IC. Revision 1 is set to charge a 7.4 LiPO battery pack with a 3 pin JST connector. 
