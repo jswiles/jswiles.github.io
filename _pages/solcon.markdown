@@ -21,6 +21,8 @@ permalink: /solcon/
 
   <p> <b> Solar Charge Controller </b> </p>
 
+  <a style="color:blue;" href="/solcon" {% if page.title == "Solar Charger" %}class="active-page"{% endif %}>/jswiles/MPPTSolarPwrModule_R2</a>
+
   <div class="row">
       <section>
          <div class="indent2em">
@@ -31,7 +33,6 @@ permalink: /solcon/
       </section>
   </div>
 
-
   <div class="row">
       <section>
          <div>
@@ -41,7 +42,6 @@ permalink: /solcon/
          </div>
       </section>
   </div>
-
 
   <div class="row">
 
