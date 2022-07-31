@@ -23,7 +23,7 @@ permalink: /solcon/
 
   <div class="row">
       <section>
-          <a style="color:blue;" href="/solcon" {% if page.title == "Solar Charger" %}class="active-page"{% endif %}>jswiles/MPPTSolarPwrModule_R2 </a>
+          <a style="color:blue;" href="/solcon" {% if page.title == "Solar Charger" %}class="active-page"{% endif %}>MPPTSolarPwrModule_R2</a>
       </section>
   </div>
 
