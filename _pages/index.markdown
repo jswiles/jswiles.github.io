@@ -8,24 +8,26 @@ permalink: /
 # Hello, Jekyll!
 ---
 
+<!--
 <div>
-          <article>
-            <p>
-              Designing interesting systems, sensors, instrumentation, and applications.
-            </p>
+  <article>
+   <p>
+     Designing interesting systems, sensors, instrumentation, and applications.
+   </p>
 
-                <a style="color:blue;" href="/lrms" {% if page.title == "About" %}class="active-page"{% endif %}>LRMS</a>
+   <a style="color:blue;" href="/lrms" {% if page.title == "About" %}class="active-page"{% endif %}>LRMS</a>
             
-                <div class="indent2em">
-                   A LoRa end node remote monitoring system.
-                </div>
-                <div class ="indent2em">
-                   Connect to a variety of sensors using I2C,
-                   SPI, UART, GPIO, or Analog ADC/DAC interfaces. 
-                </div>
+   <div class="indent2em">
+     A LoRa end node remote monitoring system.
+   </div>
+   <div class ="indent2em">
+      Connect to a variety of sensors using I2C,
+      SPI, UART, GPIO, or Analog ADC/DAC interfaces. 
+   </div>
 
-            <p> <br> <br> <br> <br>
-            </p>
+   <p> <br> <br> <br> <br>
+   </p>
+-->
 <!--
             <p style="color:blue;"> 
                 LYSO Gamma Ray Detector 
@@ -38,6 +40,8 @@ permalink: /
             </p>
 -->
 
-          </article>
+<!--
+  </article>
 </div>
+-->
 
