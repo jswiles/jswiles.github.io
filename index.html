@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
     <title>{{ page.title }} - {{ site.title }}</title>
+-->
 
 <style>
 body {
@@ -135,10 +137,7 @@ article {
   }
 }
 </style>
-
-
 </head>
-
 
 <body>
 
@@ -161,14 +160,16 @@ article {
 
     <div class="topnav">
             <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a>
+            <a href="/lrms" {% if page.title == "LRMS" %}class="active-page"{% endif %}>LRMS</a>
             <a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
             <a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a>
             <a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a>
     </div>
 
-    <main class="page-content">
-        {{ content }}
-    </main>
+    <div>
+      <p> Projects </p>
+      <p>  LRMS - LoRa Remote Monitoring System </p>
+    </div>
 
     <footer>
        Created with Jekyll

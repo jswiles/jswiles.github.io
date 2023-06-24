@@ -1,6 +1,6 @@
 ---
-#layout: default
-title: LoRa Transceiver
+layout: default
+title: LoRa Xcvr
 permalink: /xcvr/
 ---
 <style>
@@ -19,11 +19,9 @@ permalink: /xcvr/
 </style>
 
 <body>
-<!--
   <div class="row">
   <p> <b>LoRaWan Transceiver Board</b> </p>
   </div>
--->
 
   <div class="row">
   <section>

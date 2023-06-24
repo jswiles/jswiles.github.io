@@ -1,6 +1,6 @@
 ---
-#layout: default
-title: Solar Power Module
+layout: default
+title: Solar Charger
 permalink: /solcon/
 ---
 
@@ -40,6 +40,7 @@ permalink: /solcon/
          </div>
       </section>
   </div>
+
 
   <div class="row">
 
